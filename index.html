@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>VRnes</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header__line">
+            <img src="img/hero__line.svg" alt="">
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/logo.svg" alt=""></a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav id='menu'>
+                        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                        <ul class="menu__list">
+                            <li><a href='http://'>Home</a></li>
+                            <li><a href='http://'>About</a></li>
+                            <li><a href='http://'>Services</a></li>
+                            <li><a class='dropdown-arrow' href='http://'>Products</a>
+                            <ul class='sub-menus'>
+                                <li><a href='http://'>Products 1</a></li>
+                                <li><a href='http://'>Products 2</a></li>
+                                <li><a href='http://'>Products 3</a></li>
+                                <li><a href='http://'>Products 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class='dropdown-arrow' href='#'>Blog</a>
+                                <ul class='sub-menus'>
+                                <li><a href='http://'>Services 1</a></li>
+                                <li><a href='http://'>Services 2</a></li>
+                                <li><a href='http://'>Services 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="header__contact">
+                        <a href="#">Contact us</a>
+                    </nav>
+                </div>
+            </div>            
+        </header>
+        <div class="hero">
+            <div class="hero-bg">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container">
+                <div class="hero__body">
+                    <div class="hero__aitems">
+                        <div class="hero__titles">
+                            <h1>Immerse Yourself in Virtual Reality</h1>
+                            <p>Experience Unforgettable Events in VR. Bring your events to life like never before with our VR services</p>
+                            <a href="#" class="btn-1">discover more</a>
+                        </div>
+                        <div class="btn__aitem">
+                            <div class="btn__aitem-clients">
+                                <div class="btn__aitem-img">
+                                    <img src="img/Happy Client.png" alt="">
+                                </div>                                
+                                <div class="btn__aitem-static">
+                                    <p>32k+ Happy Client</p>
+                                    <img src="img/hero-border-buttom.svg" alt="">
+                                </div>                                     
+                            </div>
+                            <div class="btn__aitem-video">
+                                <img src="img/play.svg" alt="" class="play__icon">
+                                <video src="#" poster="img/Video.png" class="my__video">
+                                    <source src="#" type="">
+                                </video>
+                            </div>                                                                              
+                        </div>                        
+                    </div>
+                    <div class="btn__pic">
+                        <img src="img/hero_pic.svg" alt="#">
+                    </div>                    
+                </div>
+                <div class="hero__footer">
+                    <div class="hero__footer-block">
+                        <img src="img/Title & Desc(0).svg" alt="">
+                        <h4>Expertise</h4>
+                        <p>Our team consists of experienced VR developers, designers, and technicians who have a passion for VR and a commitment to delivering quality work and give the best service</p>
+                    </div>
+                    <div class="hero__footer-block">
+                        <img src="img/Title & Desc (1).svg" alt="">
+                        <h4>Customization</h4>
+                        <p>Every client is unique, and we believe every VR experience should be too. We'll work with you to create a customized solution that meets your specific needs and goals</p>
+                    </div>
+                    <div class="hero__footer-block">
+                        <img src="img/Title & Desc (2).svg" alt="">
+                        <h4>Service</h4>
+                        <p>We believe in providing exceptional customer service, from initial consultation to final delivery. Our goal is to ensure you're satisfied with every aspect of your VR experience.</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="about__body">
+                    <div class="about__body-img">
+                        <img src="img/about-Image.png" alt="">
+                        <div class="btn__aitem-video">
+                            <img src="img/play.svg" alt="">
+                            <video src="#" poster="img/about_poster.png"></video>
+                        </div>
+                    </div>
+                    <div class="about__aitems">
+                        <div class="about__titles">
+                            <h5>ABOUT US</h5>
+                            <h2>Bring your events to life like never before with our VR services.</h2>
+                            <p>VRNas is a leading provider of VR services for education, entertainment, architecture, and events. Our mission is to bring the power of virtual reality to everyone, allowing them to explore new worlds, learn in new ways, and experience events in a whole new light.</p>
+                        </div>
+                        <div class="about__check">
+                            <p>Cutting-Edge Technology</p>
+                            <p>Versatile Applications</p>
+                            <p>Affordable and Accessible</p>
+                            <div class="about__btn">
+                                <a href="#" class="btn-1">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+        <div class="servise">
+            <span></span>
+            <span></span>
+            <div class="container">
+                <div class="servise__title">
+                    <div class="servise__title-head">
+                        <h5 class="h5">OUR SERVICE</h5>
+                        <h2 class="h2">Our Service</h2>
+                    </div>
+                    <div class="servise__title-p">
+                        <p class="block-text-p">We use the latest VR hardware and software to create high-quality VR experiences that are accessible and affordable. Our goal is to provide exceptional customer service and support, and our team is always available to answer any questions and address any concerns you may have.</p>
+                    </div>                    
+                </div>     
+                <div class="service__column">
+                    <div class="service__row">
+                        <div class="service__block">
+                            <img src="img/sevise/software.png" alt="">
+                            <h5 class="h7">VR Development</h5>
+                            <p class="b-t-2">From concept to creation, our team of VR developers will bring your vision to life.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                        <div class="service__block">
+                            <img src="img/sevise/video-console.png" alt="">
+                            <h5 class="h7">VR Development</h5>
+                            <p class="b-t-2">We offer a wide selection of VR games that are suitable for players of all ages and skill levels.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__row">
+                        <div class="service__block">
+                            <img src="img/sevise/design.png" alt="">
+                            <h5 class="h7">VR Design</h5>
+                            <p class="b-t-2">Our talented VR designers will create immersive and engaging environments that will captivate your audience.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                        <div class="service__block">
+                            <img src="img/sevise/party.png" alt="">
+                            <h5 class="h7">VR Events</h5>
+                            <p class="b-t-2">We offer a wide selection of VR games that are suitable for players of all ages and skill levels.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__row">
+                        <div class="service__block">
+                            <img src="img/sevise/review (2).png" alt="">
+                            <h5 class="h7">VR Consulting</h5>
+                            <p class="b-t-2">Our VR consultants will work with you to ensure that your VR experience meets your goals and exceeds your expectations.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                        <div class="service__block">
+                            <img src="img/sevise/theatre.png" alt="">
+                            <h5 class="h7">VR Entertainment</h5>
+                            <p class="b-t-2">reate a VR escape room, or offer VR experiences at a theme park, we have the expertise and experience to make it happen.</p>
+                            <div class="service-block-btn">
+                                <a href="#" class="btn-2">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                      
+            </div>
+        </div>    
+        <div class="choose">
+            <div class="container">
+                <div class="choose__body">
+                    <div class="choose__titles">
+                        <h5 class="h5">WHY CHOOSE US</h5>
+                        <h2 class="h2">Why Choose Us for Your VR Needs</h2>
+                        <div class="accordion" id="myAccordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <p>Passionate and Experienced Team</p>
+                                    <img src="img/acardion_vector.svg" alt=""></div>
+                                <div class="accordion-content">
+                                <p class="b-t-2">We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <p>Customized Solutions</p> 
+                                    <img src="img/acardion_vector.svg" alt="">
+                                </div>
+                                <div class="accordion-content">
+                                    <p class="b-t-2">We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <p>Exceptional Customer Service</p>
+                                    <img src="img/acardion_vector.svg" alt="">
+                                </div>
+                                <div class="accordion-content">
+                                    <p class="b-t-2">We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-content__picture">
+                        <img src="img/chosse_photo.png" alt="">
+                        <video src="#" poster="img/choose-Video.png"></video>
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+        <div class="getstart">
+            <div class="container">
+                <div class="getstart__body">
+                    <div class="getstart__title">
+                        <h5 class="h5">HOW TO GET STARTED</h5>
+                        <h2 class="h2">Bringing Your Virtual Reality
+                            Dreams to Life</h2>
+                    </div>
+                    <div class="getstart__video">
+                        <video src="#" poster="img/5.png">
+                            <source src="">
+                        </video>
+                    </div>                    
+                </div>                
+            </div>
+        </div>       
+        <div class="price">
+            <div class="container">
+                <div class="price__body">
+                    <div class="price__title">
+                        <h5 class="h5">OUR PRICING</h5>
+                        <h2 class="h2">Affordable VR Services for Everyone</h2>
+                        <p class="b-t-1">At VRNas, we believe that everyone should have access to the benefits of VR. That's why we offer a range of pricing options to meet the needs of any budget.</p>
+                    </div>
+                    <div class="b-t-1__"></div>
+                    <div class="price__aitems">
+                        <div class="price__blocks">
+                            <div class="price__block">
+                                <h9 class="h9">Customizable Packages</h9>
+                                <p class="b-t-3">We understand that each project is unique, so we offer customizable packages to ensure that you get the services you need at a price that works for you. Our team will work with you to create a package that meets your specific goals and budget.</p>
+                            </div>  
+                            <div class="price__block">
+                                <h9 class="h9">Flexible Payment Options</h9>
+                                <p class="b-t-3">We understand that each project is unique, so we offer customizable packages to ensure that you get the services you need at a price that works for you. Our team will work with you to create a package that meets your specific goals and budget.</p>
+                            </div>  
+                            <div class="price__block">
+                                <h9 class="h9">Satisfaction Guarantee</h9>
+                                <p class="b-t-3">We stand behind our services and are committed to ensuring that you are completely satisfied with the final product. If for any reason you are not happy with our services, we will work with you to make it right or provide a full refund.</p>
+                            </div>                      
+                        </div>
+                        <div class="price__block-price">
+                            <p class="c-2">
+                                Start from
+                            </p>
+                            <h1>$99</h1>
+                            <a href="#" class="btn-1">GET STARTED</a>
+                            <p class="b-t-4">30 Days Moneyback Guarantee</p>
+                        </div>                        
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+        <div class="articles">
+            <span></span>
+            <div class="container">
+                <div class="articles__header">
+                    <div class="articles__title">
+                        <h5 class="h5">OUR ARTICLES</h5>
+                        <h2 class="h2">Stay Up-to-Date with Our VR Insights</h2>
+                    </div>
+                    <div class="articles__btn">
+                        <a href="#" class="btn-0">SEE ALL</a>
+                    </div>                    
+                </div>
+                <div class="articles__body">
+                    <div class="articles__popular">
+                        <h6 class="h-6">Popular Article</h6>
+                        <div class="art__b">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="articles__aitems">
+                                            <div class="articles__genre-btn">
+                                                <a href="#">VR Games</a>
+                                            </div>                                    
+                                            <div class="articles__aitem">
+                                                <h5>Entertainment Goes Virtual: The Rise of VR Gaming</h5>
+                                                <a href="#"><img src="img/right.svg" alt=""></a>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="articles__aitems">
+                                            <div class="articles__genre-btn">
+                                                <a href="#">VR Games</a>
+                                            </div>                                    
+                                            <div class="articles__aitem">
+                                                <h5>Entertainment Goes Virtual: The Rise of VR Gaming</h5>
+                                                <a href="#"><img src="img/right.svg" alt=""></a>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="articles__aitems">
+                                            <div class="articles__genre-btn">
+                                                <a href="#">VR Games</a>
+                                            </div>                                    
+                                            <div class="articles__aitem">
+                                                <h5>Entertainment Goes Virtual: The Rise of VR Gaming</h5>
+                                                <a href="#"><img src="img/right.svg" alt=""></a>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div>                
+                            </div>          
+                        </div>                            
+                    </div>
+                    <div class="articles__recent">
+                        <div class="articles__title">
+                            <h4 class="h-6">Recent Article</h4>
+                        </div>
+                        <div class="swiper-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-1.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-2.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-3.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-1.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-2.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-3.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-1.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="recent__img">
+                                        <img src="img/recent-2.png" alt="">
+                                    </div>                                                                          
+                                    <div class="recent__aitem">
+                                        <div class="articles__genre-btn">
+                                            <a href="#">VR Games</a>
+                                        </div> 
+                                        <div class="swiper-vertical__foter">
+                                            <h5 class="h-9">The Future of Education: How VR is Revolutionizing the Classroom</h5>
+                                            <a href="#"><img src="img/right.svg" alt=""></a>
+                                        </div>                                            
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>                         
+                    </div>               
+                </div>
+            </div>
+        </div>
+        <div class="subcribe">
+            <div class="container">
+                <div class="subcribe__body">
+                    <div class="subcribe__title">
+                        <h3 class="h-3">Subscribe to our newsletter for latest updates</h3>
+                    </div>
+                    <div class="sub__mail">
+                        <div class="mail">
+                            <img src="img/Message.svg" alt="">
+                            <input type="email" name="mail" id="mail" placeholder="Enter your email address">
+                        </div>     
+                        <p><button type="submit"><img src="img/Send.svg" alt=""></button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <div class="footer__aitems">
+                        <nav class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li><a href="#"><img src="img/logo.svg" alt=""></a></li>
+                            </ul>
+                            <ul class="footer__menu-social">
+                                <li><a href="#"><img src="img/social_1.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/social_2.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/social_3.svg" alt=""></a></li>
+                                <li><a href="#"><img src="img/social_4.svg" alt=""></a></li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__links">
+                            <ul class="footer__links-list">
+                                <li><a href="#"><h6>Quicklinks</h6></a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Pricing Plan</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Our Team</a></li>
+                            </ul>
+                            <ul class="footer__links-list">
+                                <li><a href="#"><h6>Support</h6></a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact us </a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Tems & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                            <ul class="footer__links-list">
+                                <li><a href="#"><h6>Need Help?</h6></a></li>
+                                <li><a href="#" ><img src="img/Location.svg" alt="">Tanjung Sari Street no.48, Pontianak City</a></li>
+                                <li><a href="mailto:Support@VRNas.com"><img src="img/Message 1.svg" alt=""> Support@VRNas.com</a></li>
+                                <li><a href="tel:++123 456 7890"><img src="img/Calling.svg" alt=""> +123 456 7890</a></li>
+                        </nav>
+                    </div>
+                    <div class="footer__copy">
+                        <p>© Copyright 2025, All Rights Reserved</p>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+    </div>      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>   
+</body>
+</html>
