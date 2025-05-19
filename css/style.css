@@ -959,6 +959,11 @@ input::placeholder{
     font-size: 16px;
     line-height: 28px;
 }
+.footer__links-list li a {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
 .footer__copy {
     padding-top: 25px;
     text-align: center;
